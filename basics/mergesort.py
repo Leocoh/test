@@ -1,3 +1,7 @@
+@@ -8,6 +8,40 @@ def debug_print(debug_msg=None, **kwargs):
+        print("{}: {}".format(key, value))
+
+
 def mergesort(array):
     debug_print(array=array)
     if len(array) <= 1:
@@ -34,6 +38,9 @@ def merge(left, right):
 
 if __name__ == "__main__":
     input_str = input("Enter numbers, separated by ',': ")
+   
+@@ -23,3 +57,6 @@ if __name__ == "__main__":
+        quit(1)
 
     debug_print(value_list=value_list)
 
